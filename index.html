@@ -2,68 +2,69 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Skanda Tejaswi – Portfolio</title>
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-50 text-gray-800 scroll-smooth">
+<body class="bg-gray-50 text-gray-900 font-sans scroll-smooth">
 
     <!-- Hero Section -->
-    <header class="text-center py-16 bg-gradient-to-r from-purple-100 via-white to-white">
+    <header class="text-center py-16 bg-white shadow-md">
         <img src="assets/images/profile.jpg" alt="Profile"
-            class="w-36 h-36 rounded-full mx-auto border-4 border-purple-400 mb-6 object-cover">
-        <h1 class="text-4xl md:text-5xl font-bold mb-2 text-gray-800">Skanda Tejaswi D</h1>
+            class="w-36 h-36 rounded-full mx-auto border-4 border-gray-300 object-cover mb-6">
+        <h1 class="text-4xl md:text-5xl font-bold mb-2">Skanda Tejaswi D</h1>
         <p class="text-lg md:text-xl text-gray-600 mb-4">Backend Developer | AI Enthusiast | DevOps Practitioner</p>
         <a href="#projects"
-            class="inline-block bg-purple-400 text-white px-6 py-3 rounded-lg font-semibold hover:bg-purple-500 transition">View
+            class="inline-block bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition">View
             Projects</a>
     </header>
 
     <!-- About Me -->
-    <section id="about" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-4 text-center text-gray-800">About Me</h2>
-        <p class="text-gray-700 text-lg leading-relaxed">
-            Backend Developer with 2+ years of experience delivering efficient and maintainable backend systems.
-            Proficient in Java, Spring Boot, SQL, REST APIs, and Microservices. Experienced in Agile methodologies and
-            CI/CD practices. Adaptable to new technologies, focused on clean code, high performance, and scalable
-            solutions.
+    <section id="about" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-4 text-center">About Me</h2>
+        <p class="text-gray-700 text-lg leading-relaxed text-center">
+            I am a Backend Developer with 2+ years of experience building efficient and maintainable backend systems.
+            Skilled in Java, Spring Boot, SQL, REST APIs, and Microservices. I thrive in Agile environments and embrace
+            new technologies with a focus on high-quality, scalable solutions.
         </p>
     </section>
 
     <!-- Technical Skills -->
-    <section id="skills" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-6 text-center text-gray-800">Technical Skills</h2>
+    <section id="skills" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-6 text-center">Technical Skills</h2>
         <div class="flex flex-wrap justify-center gap-3">
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Java</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Spring Boot</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">SQL</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">REST APIs</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Microservices</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Drools</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Docker</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Kubernetes</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">PostgreSQL</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">Python</span>
-            <span class="bg-purple-100 text-purple-700 px-4 py-2 rounded-full font-semibold">TensorFlow</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Java</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Spring Boot</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">SQL</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">REST APIs</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Microservices</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Drools</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Docker</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Kubernetes</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">PostgreSQL</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Python</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">TensorFlow</span>
         </div>
     </section>
 
     <!-- Professional Experience -->
-    <section id="experience" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-6 text-center text-gray-800">Professional Experience</h2>
-
-        <div class="mb-6 p-5 border-l-4 border-purple-400 bg-gray-50 rounded-lg shadow-sm">
+    <section id="experience" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-6 text-center">Professional Experience</h2>
+        <div class="mb-6 p-5 border-l-4 border-gray-300 bg-gray-50 rounded-lg">
             <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-3">
-                <h3 class="text-xl font-bold text-gray-800">Associate – NEC Software Solutions, Bengaluru, India</h3>
+                <h3 class="text-xl font-bold">Associate – NEC Software Solutions, Bengaluru, India</h3>
                 <span class="text-gray-500 font-medium mt-2 md:mt-0">Aug 2023 – Present</span>
             </div>
-            <ul class="list-disc list-inside text-gray-700 space-y-1 ml-2">
+            <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
                 <li>Client: KMD-Denmark.</li>
-                <li>Implemented document upload & delete functionality in a multi-module Spring Boot system; contributed to OpenAPI integration.</li>
-                <li>Translated 1,300+ AION rules into a Java/Drools microservice; optimized performance, reduced session execution time by 40%.</li>
+                <li>Implemented document upload & delete functionality in a multi-module Spring Boot system; contributed
+                    to OpenAPI integration.</li>
+                <li>Translated 1,300+ AION rules into a Java/Drools microservice; optimized performance, reducing
+                    session execution time by 40%.</li>
                 <li>Created PowerShell scripts and annotation-scanning utilities to improve maintainability.</li>
                 <li>Participated in Agile ceremonies, sprint reviews, and peer code walk-throughs.</li>
             </ul>
@@ -71,69 +72,72 @@
     </section>
 
     <!-- Projects -->
-    <section id="projects" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-6 text-center text-gray-800">Projects</h2>
+    <section id="projects" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-6 text-center">Projects</h2>
         <div class="grid md:grid-cols-2 gap-6">
-            <div class="p-5 bg-purple-50 rounded-lg shadow hover:shadow-lg transition">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">HCM - Document Management System</h3>
-                <p>Cloud-native multi-tenant document storage & retrieval system.</p>
+            <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
+                <h3 class="text-xl font-bold mb-2">HCM - Document Management System</h3>
+                <p class="text-gray-700">Cloud-native multi-tenant document storage & retrieval system.</p>
                 <div class="flex flex-wrap gap-2 mt-3">
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Java</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Spring Boot</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">PostgreSQL</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">OpenAPI</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Docker</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Kubernetes</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Java</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Spring Boot</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">OpenAPI</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Docker</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Kubernetes</span>
                 </div>
             </div>
-            <div class="p-5 bg-purple-50 rounded-lg shadow hover:shadow-lg transition">
-                <h3 class="text-xl font-bold mb-2 text-gray-800">HCM - Special Allowance Calculator</h3>
-                <p>Payroll calculations for special allowances, working hours, and shift compensations.</p>
+            <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
+                <h3 class="text-xl font-bold mb-2">HCM - Special Allowance Calculator</h3>
+                <p class="text-gray-700">Payroll calculations for special allowances, working hours, and shift
+                    compensations.</p>
                 <div class="flex flex-wrap gap-2 mt-3">
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Java</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Spring Boot</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Drools</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">PostgreSQL</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">K6</span>
-                    <span class="bg-purple-400 text-white px-3 py-1 rounded-full text-sm">Azure DevOps</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Java</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Spring Boot</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Drools</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">PostgreSQL</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">K6</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Azure DevOps</span>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Education -->
-    <section id="education" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-4 text-center text-gray-800">Education</h2>
-        <p class="text-gray-700 mb-2"><strong>Sri Jayachamarajendra College of Engineering (SJCE/JSSSTU), Mysuru</strong></p>
-        <p class="text-gray-700 mb-2">B.E., Computer Science and Engineering (2018–2022) | CGPA: 8.77</p>
-        <p class="text-gray-700 text-sm">Academic Project: IoT-Based Assistive Tech using AI/ML to convert text, speech, and images into accessible formats; published in IRJEMTS.</p>
+    <section id="education" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Education</h2>
+        <p class="text-gray-700 mb-2 text-center"><strong>Sri Jayachamarajendra College of Engineering (SJCE/JSSSTU),
+                Mysuru</strong></p>
+        <p class="text-gray-700 mb-2 text-center">B.E., Computer Science and Engineering (2018–2022) | CGPA: 8.77</p>
+        <p class="text-gray-700 text-sm text-center">Academic Project: IoT-Based Assistive Tech using AI/ML to convert
+            text, speech, and images into accessible formats; published in IRJEMTS.</p>
     </section>
 
     <!-- Certifications -->
-    <section id="certifications" class="max-w-4xl mx-auto my-16 p-6 bg-white shadow-md rounded-xl">
-        <h2 class="text-3xl font-semibold mb-4 text-center text-gray-800">Certifications</h2>
-        <ul class="text-gray-700 list-disc list-inside space-y-1 ml-4">
+    <section id="certifications" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
+        <h2 class="text-3xl font-semibold mb-4 text-center">Certifications</h2>
+        <ul class="text-gray-700 list-disc list-inside space-y-2 ml-4">
             <li>Azure Fundamentals (AZ-900): Cloud Concepts — LinkedIn</li>
             <li>Interpersonal Skills for Inclusive Workplaces — LinkedIn</li>
         </ul>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="max-w-4xl mx-auto my-16 p-6 bg-purple-50 rounded-xl text-center">
-        <h2 class="text-3xl font-semibold mb-4 text-gray-800">Contact Me</h2>
+    <section id="contact" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm text-center">
+        <h2 class="text-3xl font-semibold mb-4">Contact Me</h2>
         <p class="mb-2 text-gray-700">Email: <a href="mailto:skanda.d26@gmail.com"
-                class="text-purple-700 font-semibold">skanda.d26@gmail.com</a></p>
+                class="text-black font-semibold hover:underline">skanda.d26@gmail.com</a></p>
         <p class="mb-2 text-gray-700">Phone: <span class="font-semibold">+91 7090922158</span></p>
         <div class="flex justify-center gap-4 mt-4 flex-wrap">
             <a href="https://github.com/skanda-github" target="_blank"
-                class="bg-purple-400 text-white px-5 py-2 rounded-lg hover:bg-purple-500 transition">GitHub</a>
+                class="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition">GitHub</a>
             <a href="https://www.linkedin.com/in/skanda-tejaswi-d" target="_blank"
-                class="bg-purple-400 text-white px-5 py-2 rounded-lg hover:bg-purple-500 transition">LinkedIn</a>
+                class="bg-black text-white px-5 py-2 rounded-lg hover:bg-gray-800 transition">LinkedIn</a>
         </div>
     </section>
 
-    <!-- Smooth Scroll JS -->
     <script>
+        // Smooth scroll for internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
@@ -145,6 +149,6 @@
             });
         });
     </script>
-
 </body>
+
 </html>
