@@ -15,4 +15,4 @@ This is a static portfolio website showcasing backend projects, AI integrations,
 
 ## Live Demo
 
-[Visit Portfolio](https://<username>.github.io/<repository>/)
+[Visit Portfolio](https://skanda-github.github.io/portfolio/)
