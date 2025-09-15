@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skanda Tejaswi – Portfolio</title>
+    <title>Portfolio Website</title>
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -17,19 +17,22 @@
         <img src="assets/images/profile.jpg" alt="Profile"
             class="w-36 h-36 rounded-full mx-auto border-4 border-gray-300 object-cover mb-6">
         <h1 class="text-4xl md:text-5xl font-bold mb-2">Skanda Tejaswi D</h1>
-        <p class="text-lg md:text-xl text-gray-600 mb-4">Backend Developer | AI Enthusiast | DevOps Practitioner</p>
-        <a href="#projects"
+        <p class="text-lg md:text-xl text-gray-600 mb-4">
+            Backend Developer with interests in DevOps & AI/ML
+        </p>
+        <!-- <a href="#projects"
             class="inline-block bg-black text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-800 transition">View
-            Projects</a>
+            Projects</a> -->
     </header>
 
     <!-- About Me -->
     <section id="about" class="max-w-4xl mx-auto my-16 p-6 bg-white rounded-xl shadow-sm">
         <h2 class="text-3xl font-semibold mb-4 text-center">About Me</h2>
         <p class="text-gray-700 text-lg leading-relaxed text-center">
-            I am a Backend Developer with 2+ years of experience building efficient and maintainable backend systems.
-            Skilled in Java, Spring Boot, SQL, REST APIs, and Microservices. I thrive in Agile environments and embrace
-            new technologies with a focus on high-quality, scalable solutions.
+            Backend Developer – Java with 2+ years of experience in delivering efficient and maintainable backend
+            systems. Proficient in Java, Spring Boot, and SQL, with a strong focus on business logic, API design, and
+            performance tuning. Experienced in Agile methodologies and CI/CD practices. Adaptable to new technologies
+            and committed to providing high-quality solutions.
         </p>
     </section>
 
@@ -42,11 +45,12 @@
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">SQL</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">REST APIs</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Microservices</span>
-            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Drools</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Docker</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Kubernetes</span>
-            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">PostgreSQL</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Helm</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Drools</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Python</span>
+            <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">Scikit-learn</span>
             <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full font-medium">TensorFlow</span>
         </div>
     </section>
@@ -63,17 +67,21 @@
             </div>
             <ul class="list-disc list-inside text-gray-700 space-y-2 ml-4">
                 <li>Client: KMD-Denmark.</li>
-                <li>Implemented document upload & delete functionality in a multi-module Spring Boot system; contributed
-                    to OpenAPI integration.</li>
-                <li>Translated 1,300+ AION rules into a Java/Drools microservice; optimized performance, reducing
-                    session execution time by 40%.</li>
+                <li>Implemented document upload and delete functionality in the upload and filesystem modules of a
+                    multi-module Spring Boot system, and contributed to module-level analysis and OpenAPI integration.
+                </li>
+                <li>Led the translation of 1,300+ AION rules into a Java/Drools microservice, contributed to solution
+                    architecture, optimized performance by reducing session execution time by 40%, coordinated between
+                    teams, and
+                    implemented complex compensation agreements logic.</li>
                 <li>Created PowerShell scripts and annotation-scanning utilities to improve maintainability.</li>
+                <li>Gained basic awareness of performance tuning, containerization (Docker/Kubernetes) & CI/CD.</li>
                 <li>Participated in Agile ceremonies, sprint reviews, and peer code walk-throughs.</li>
             </ul>
         </div>
 
         <!-- Experience 2 (Sample) -->
-        <div class="mb-6 p-5 border-l-4 border-gray-300 bg-gray-50 rounded-lg">
+        <!-- <div class="mb-6 p-5 border-l-4 border-gray-300 bg-gray-50 rounded-lg">
             <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-3">
                 <h3 class="text-xl font-bold">Intern – ABC Tech Solutions, Bengaluru, India</h3>
                 <span class="text-gray-500 font-medium mt-2 md:mt-0">Jun 2022 – Jul 2023</span>
@@ -84,7 +92,7 @@
                 <li>Collaborated with cross-functional teams using Agile workflows.</li>
                 <li>Performed unit testing and participated in code reviews.</li>
             </ul>
-        </div>
+        </div> -->
     </section>
 
     <!-- Projects -->
@@ -93,7 +101,8 @@
         <div class="grid md:grid-cols-2 gap-6">
             <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
                 <h3 class="text-xl font-bold mb-2">HCM - Document Management System</h3>
-                <p class="text-gray-700">Cloud-native multi-tenant document storage & retrieval system.</p>
+                <p class="text-gray-700">Delivered a cloud-native, multi-tenant Document Management System
+                    supporting document storage, retrieval and upload workflows.</p>
                 <div class="flex flex-wrap gap-2 mt-3">
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Java</span>
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Spring Boot</span>
@@ -101,12 +110,14 @@
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">OpenAPI</span>
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Docker</span>
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Kubernetes</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Helm</span>
+                    <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Azure DevOps</span>
                 </div>
             </div>
             <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
                 <h3 class="text-xl font-bold mb-2">HCM - Special Allowance Calculator</h3>
-                <p class="text-gray-700">Payroll calculations for special allowances, working hours, and shift
-                    compensations.</p>
+                <p class="text-gray-700">: Complex payroll calculations designed for special allowances, working hours,
+                    and shift compensations.</p>
                 <div class="flex flex-wrap gap-2 mt-3">
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Java</span>
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Spring Boot</span>
@@ -117,7 +128,7 @@
                 </div>
             </div>
             <!-- Project 3 (New Entry) -->
-            <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
+            <!-- <div class="p-5 bg-gray-50 rounded-lg shadow hover:shadow-md transition">
                 <h3 class="text-xl font-bold mb-2">AI Chat Assistant</h3>
                 <p class="text-gray-700">A chatbot application integrated with AI for customer service automation.</p>
                 <div class="flex flex-wrap gap-2 mt-3">
@@ -127,7 +138,7 @@
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Docker</span>
                     <span class="bg-gray-300 text-gray-800 px-3 py-1 rounded-full text-sm">Azure</span>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
