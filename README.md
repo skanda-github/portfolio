@@ -1,4 +1,4 @@
-# Skanda Tejaswi Portfolio
+# Skanda Tejaswi -- Portfolio Website
 
 This is a static portfolio website showcasing backend projects, AI integrations, and DevOps experience.
 
